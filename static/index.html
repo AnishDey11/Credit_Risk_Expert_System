@@ -2,13 +2,13 @@
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Credit Compass — Expert Risk Studio</title><link rel="stylesheet" href="/static/style.css"></head>
 <body>
-<div class="grain"></div><nav><div class="brand"><span class="brandmark">✳</span> credit<span>compass</span></div><div class="navright"><span class="live"><i></i> RULE ENGINE ONLINE</span><button class="ghost" id="reset">↺ Reset</button></div></nav>
+<div class="grain"></div><nav><div class="brand"><span class="brandmark">✳</span> credit<span>compass</span></div><div class="navright"><span class="live"><i></i> DST EVIDENCE ENGINE</span><button class="ghost" id="reset">↺ Reset</button></div></nav>
 <main>
-<header class="hero"><div><p class="eyebrow">MULTI-EXPERT DECISION INTELLIGENCE / 01</p><h1>See the risk.<br><em>Not just the score.</em></h1><p class="sub">Five specialist perspectives. One transparent recommendation.<br>Explore how competing signals shape a lending decision.</p></div><div class="hero-stamp"><span>CC</span><small>DECISION<br>LAB / 2026</small></div></header>
+<header class="hero"><div><p class="eyebrow">MULTI-EXPERT DECISION INTELLIGENCE / 01</p><h1>See the risk.<br><em>Not just the score.</em></h1><p class="sub">Five specialist perspectives. One evidence-based recommendation.<br>See how belief, uncertainty and conflict shape a lending decision.</p></div><div class="hero-stamp"><span>CC</span><small>DECISION<br>LAB / 2026</small></div></header>
 <div class="workspace">
 <section class="panel form-panel"><div class="panelhead"><div><span class="step">01 / INPUT</span><h2>Applicant profile</h2></div><span class="pill">LIVE INPUTS</span></div>
 <form id="form">
-<label class="field full"><span>Applicant / case label</span><input name="name" value="Aarav Mehta" /></label>
+<label class="field full"><span>Applicant / case label</span><input name="name" value="Amrita Roy" /></label>
 <div class="section-label">FINANCIAL POSITION <span>01—04</span></div>
 <div class="fields">
 <label class="field"><span>Annual income (₹)</span><input name="income" type="number" value="1200000" min="0" step="10000" required></label>
@@ -37,8 +37,8 @@
 </form></section>
 <section class="results">
 <div class="decision panel" id="decision"><div class="panelhead"><span class="step">02 / OUTCOME</span><span class="pill">AWAITING RUN</span></div><div class="empty"><div class="orbit">✳</div><h2>Your decision<br>starts here.</h2><p>Adjust the applicant profile, then run the assessment to see five experts reason together.</p></div></div>
-<div class="panel expert-panel"><div class="panelhead"><div><span class="step">03 / PERSPECTIVES</span><h2>Expert room <span class="muted">/ 05</span></h2></div><span class="pill">WEIGHTED</span></div><div id="experts" class="expert-list"><div class="placeholder">Specialist scorecards appear after assessment.</div></div></div>
-<div class="panel logic"><div class="panelhead"><div><span class="step">04 / EXPLAINABILITY</span><h2>How the engine thinks</h2></div><span class="pill">RULE-BASED</span></div><div class="logic-grid"><div><b>01</b><strong>Score each lens</strong><p>Five independent rule sets translate financial signals into a 0–100 opinion.</p></div><div><b>02</b><strong>Weighted consensus</strong><p>Expert scores are combined using adjustable influence weights.</p></div><div><b>03</b><strong>Conflict check</strong><p>Score spread ≥35 points triggers escalation and conditions.</p></div><div><b>04</b><strong>Decision gates</strong><p>Fraud flags, DTI and consensus thresholds determine the recommendation.</p></div></div><div class="formula">Consensus = Σ (expert score × weight) ÷ Σ weights</div></div>
+<div class="panel expert-panel"><div class="panelhead"><div><span class="step">03 / PERSPECTIVES</span><h2>Expert room <span class="muted">/ 05</span></h2></div><span class="pill">DST / BPA</span></div><div id="experts" class="expert-list"><div class="placeholder">Specialist scorecards appear after assessment.</div></div></div>
+<div class="panel logic"><div class="panelhead"><div><span class="step">04 / EXPLAINABILITY</span><h2>How the engine thinks</h2></div><span class="pill">DST + RULES</span></div><div class="logic-grid"><div><b>01</b><strong>Score each lens</strong><p>Five expert rule sets translate applicant signals into evidence masses (BPA).</p></div><div><b>02</b><strong>Evidence fusion</strong><p>Expert BPAs are combined using Dempster’s Rule; weights adjust evidence reliability.</p></div><div><b>03</b><strong>Conflict & uncertainty</strong><p>Conflict K and uncommitted mass Θ reveal disagreement and incomplete evidence.</p></div><div><b>04</b><strong>Decision gates</strong><p>Belief thresholds, conflict, DTI and fraud safeguards determine the recommendation.</p></div></div><div class="formula">m₁ ⊕ m₂ ⊕ … ⊕ m₅ = combined evidence (Dempster’s Rule)</div></div>
 </section></div>
 <footer><span>✳ CREDIT COMPASS <small>EXPERIMENTAL DECISION SUPPORT</small></span><span>Built for transparency, not autopilot.</span></footer>
 </main><script src="/static/app.js"></script></body></html>
