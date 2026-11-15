@@ -28,6 +28,9 @@ echo Starting FastAPI server...
 @REM  echo Mobile: http://192.168.29.79:8000
 echo ==========================================
 
+REM Automatically open browser after 3 seconds
+start "" cmd /c "timeout /t 3 /nobreak >nul & start http://127.0.0.1:8000/"
+
 @REM  python -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 python -m uvicorn app:app --reload
 
